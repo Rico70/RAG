@@ -43,7 +43,7 @@ def load_and_summarize(file):
         document = loader.load()
                 
         model = Ollama(
-            model="llama3",
+            model="llama3.1",
             temperature = 0
         )
         
